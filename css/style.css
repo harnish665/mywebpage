@@ -1,0 +1,240 @@
+@media (max-width: 1024px) {
+  body {
+    text-align: center;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    padding: 0;
+  }
+  #home {
+    position: relative;
+  }
+  .nav {
+    text-align: center;
+
+    width: 100%;
+    background-color: aqua;
+    padding: 0 0 0 50px;
+    z-index: 1;
+
+
+  }
+
+  .navbar, .nav-link{
+    text-align: center;
+    text-decoration: none;
+    color: grey;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+  }
+  .nav-link {
+    text-align: center;
+  }
+
+  .container-fluid {
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem 3rem 0.5rem;
+    background-image: url(images/desktop-flower.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+
+  .Header-text {
+    text-align: center;
+    backdrop-filter: blur(8px);
+    border-radius: 30px;
+    box-shadow: 10px 20px 30px #b3b3b3, -10px -6px 20px black;
+    margin-top: 17px;
+    margin-bottom: 8px;
+    border: 2px solid;
+    border-image: linear-gradient(0deg, green, aqua);
+    border-image-slice: 1;
+
+
+  }
+  h1 {
+    font-family: 'Open Sans' serif;
+    letter-spacing: 2px;
+    color: white;
+    margin: 6rem auto 2rem;
+    font-stretch: expanded;
+    font-weight: bolder;
+    font-size: 35px;
+
+  }
+  p {
+    font-family: 'Montserrat' serif;
+    color: #f9f6f2;
+    font-weight: 300;
+    margin-bottom: 4rem;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+  }
+
+  .btn {
+    margin-bottom: 3rem;
+    border-radius: 5px;
+  }
+
+  /* About section */
+  .about {
+    text-align: left;
+    backdrop-filter: blur(100px);
+    border-radius: 20px;
+    background: linear-gradient(-114deg, aqua, white 0.8);
+    box-shadow: 10px 20px 30px #b3b3b3, -10px -6px 20px grey;
+    border: none;
+    margin-top: 2rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 2rem;
+    position: relative;
+  }
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+    font-size: 35px;
+
+
+  }
+  h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+  .about-text {
+    text-align: justify;
+    color: grey;
+    position: relative;
+    top: -45px;
+    right: -15px;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-right: 4rem;
+  }
+  .vl {
+    border-left: 4px solid grey;
+    height: 50px;
+    display: inline-block;
+  }
+  .triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8em 0 0 8em;
+    border-color: transparent transparent transparent #5fdec4;
+    /* position: relative; */
+    bottom: 30px;
+    animation-duration: 10s;
+    display: inline-block;
+    animation-name: triangles;
+  }
+  @keyframes triangles {
+    from {border-color: transparent transparent transparent rgb(151, 235, 158)}
+    to {border-color: transparent transparent transparent rgb(0, 128, 100)}
+
+  }
+  .profile-image {
+    border-radius: 8px;
+    width: 25%;
+    position: absolute;
+    bottom: 37px;
+    right: 15px;
+  }
+
+  .services {
+    backdrop-filter: blur(100px);
+    border-radius: 20px;
+    background: linear-gradient(145deg, aqua, #cacaca, 0.5);
+    box-shadow: 10px 20px 30px #b3b3b3, -10px -6px 20px grey;
+    border: none;
+    margin: 2.5rem 1rem;
+    text-align: center;
+
+  }
+
+  .grey-box {
+    backdrop-filter: blur(100px);
+    background-color: #0e0c0a;
+    padding: 0.5rem 2rem;
+
+  }
+
+  .service-hd {
+    backdrop-filter: blur(100px);
+    margin-left: 15px;
+    font-size: 40px;
+    padding-top: 30px;
+
+  }
+  .service-text {
+    margin-top: 1rem;
+    text-align: justify;
+    color: grey;
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-right: 110px;
+
+  }
+  .fa-brands {
+    color: teal;
+    padding: 10px;
+    font-size: 30px;
+  }
+  .btn-Submit {
+    width: 100%;
+  }
+
+  .contact {
+
+    border-radius: 20px;
+    background: linear-gradient(145deg, aqua, #cacaca, 0.5);
+    box-shadow: 10px 20px 30px #b3b3b3, -10px -6px 20px grey;
+    border: none;
+    margin: 2.5rem 1rem;
+    text-align: center;
+
+  }
+  .white-box {
+    backdrop-filter: blur(100px);
+    background-color: #f9f6f2;
+    padding: 0.5rem 2rem;
+    text-align: left;
+    padding: 1rem;
+  }
+  .contact-hd{
+    backdrop-filter: blur(100px);
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+    font-size: 40px;
+    padding-top: 30px;
+    line-height: 2;
+  }
+  .contact-text {
+    text-align: center;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    margin-top: 15px;
+  }
+  .dark-box {
+    backdrop-filter: blur(100px);
+    background-color: #48c8c5 ;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    border-radius: 10px;
+
+  }
+  .tel {
+    text-align: center;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+  }
+  footer {
+    text-align: center;
+    color: grey;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+}
