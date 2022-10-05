@@ -1,4 +1,4 @@
-document.querySelector("button").addEventListener("click", myFunction)
-function myFunction(){
-    document.querySelector("button").alert("A warm welcome 🥰");
+document.querySelector("button").addEventListener("click", myFunction);
+function myFunction() {
+  alert("A warm welcome 🥰");
 }
