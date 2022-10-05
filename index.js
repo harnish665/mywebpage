@@ -1,4 +1,4 @@
   document.querySelector("button").addEventListener("click", clickHandler);
   function clickHandler() {
-    document.querySelector(".love").classList.toggle("i");
+    document.querySelector("button").innerHTML = "A warm welcome to my page 🥳";
   }
